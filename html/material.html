@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>完善资料</title>
+<script>
+var screenWidth = screen.width;
+if(screenWidth <= 320) {
+    var rootFontSizeNumber = '.625';
+    var rootFontSize = '.625rem';
+    } else if (screenWidth > 320 && screenWidth <= 375) {
+    var rootFontSizeNumber = '.65';
+    var rootFontSize = '.65rem';
+    } else {
+    var rootFontSizeNumber = '.7';
+    var rootFontSize = '.7rem';
+}
+document.write('<style>html {font-size: ' + rootFontSize + ';}</style>');
+</script>
+<link rel="stylesheet" href="../build/styles/global.css">
+<link rel="stylesheet" href="../build/styles/modules.css">
+</head>
+<body>
+<div class="material_avator">
+    <span><img src="../build/images/avator.png" alt="头像"></span>
+    <em>点击更换头像</em>
+</div>
+<div class="wrap">
+    <div class="material_info">
+        <ul>
+            <li>
+                <em>真实姓名</em>
+                <input type="text" placeholder="填写后不能修改">
+            </li>
+            <li>
+                <em>关注领域</em>
+                <div>
+                    <span>新材料</span>
+                    <ul>
+                        <li>新材料</li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="wrap">
+    <div class="reg_btn">下一步</div>
+</div>
+<script src="../build/libs/jquery.min.js"></script>
+<script src="../build/scripts/reg.js"></script>
+</body>
+</html>

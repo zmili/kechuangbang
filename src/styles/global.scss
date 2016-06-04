@@ -1,0 +1,46 @@
+@import '_mixin.scss';
+html {
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color:transparent;
+    outline: 0;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body,
+dl,
+dd,
+p,
+ul,
+h2,
+figure {
+    margin: 0;
+}
+ul { list-style: none; }
+ul,
+input { padding: 0; }
+input {
+    border: 0 none;
+}
+body {
+    overflow-x: hidden;
+    background: #f4f4f4;
+}
+input {
+    outline: 0 none;
+}
+%clearfix {
+    &::after,
+    &::before {
+        content: "";
+        display: table;
+    }
+
+    &::after {
+        clear: both;
+        overflow: hidden;
+    }
+}
+%otw {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

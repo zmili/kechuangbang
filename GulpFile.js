@@ -49,6 +49,11 @@ gulp.task('scripts', function() {
         .pipe( gulpif(isBuild, sourcemaps.write('.')) )
         .pipe(gulp.dest(pathBuild + '/scripts'));
 });
+// Libs
+gulp.task('libs', function() {
+    gulp.src(pathEntry + '/libs/*.js')
+        .pipe(gulp.dest(pathBuild + '/libs'));
+});
 // styles
 gulp.task('styles', function() {
     gulp.src(pathEntry + '/styles/*.scss')
@@ -72,7 +77,7 @@ gulp.task('clean', function(cb) {
 
 // Default task
 gulp.task('default',['clean'], function(cb) {
-    gulp.start('styles', 'images', 'scripts');
+    gulp.start('styles', 'images', 'scripts', 'libs');
 });
 
 // Watch
@@ -80,6 +85,7 @@ gulp.task('watch', function() {
     gulp.watch(pathEntry + '/styles/**/*.scss', ['styles']);
     gulp.watch(pathEntry + '/images/**/*', ['images']);
     gulp.watch(pathEntry + '/scripts/**/*.js', ['scripts']);
+    gulp.watch(pathEntry + '/libs/**/*.js', ['libs']);
 
     livereload.listen();
     gulp.watch([pathBuild + '/**']).on('change', livereload.changed);
