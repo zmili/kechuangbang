@@ -17,7 +17,8 @@ ul {
   list-style: none; }
 
 ul,
-input {
+input,
+textarea {
   padding: 0; }
 
 input {

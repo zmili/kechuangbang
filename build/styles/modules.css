@@ -1,8 +1,8 @@
-.reg_tab ul::after, .reg_info ul::after, .log_info ul::after, .material_avator span::after, .material_info ul::after, .material_info li::after, .basic_tab ul::after, .basic_form::after, .reg_tab ul::before, .reg_info ul::before, .log_info ul::before, .material_avator span::before, .material_info ul::before, .material_info li::before, .basic_tab ul::before, .basic_form::before {
+.reg_tab ul::after, .reg_info ul::after, .log_info ul::after, .material_avator span::after, .material_info ul::after, .material_info li::after, .basic_tab ul::after, .basic_form::after, .detail_form::after, .reg_tab ul::before, .reg_info ul::before, .log_info ul::before, .material_avator span::before, .material_info ul::before, .material_info li::before, .basic_tab ul::before, .basic_form::before, .detail_form::before {
   content: "";
   display: table; }
 
-.reg_tab ul::after, .reg_info ul::after, .log_info ul::after, .material_avator span::after, .material_info ul::after, .material_info li::after, .basic_tab ul::after, .basic_form::after {
+.reg_tab ul::after, .reg_info ul::after, .log_info ul::after, .material_avator span::after, .material_info ul::after, .material_info li::after, .basic_tab ul::after, .basic_form::after, .detail_form::after {
   clear: both;
   overflow: hidden; }
 
@@ -101,6 +101,9 @@
       text-indent: 5.4rem; }
       .log_info li input.tel {
         background: url(../images/log_tel.png) no-repeat 1.5rem center;
+        background-size: 1.5rem auto; }
+      .log_info li input.num {
+        background: url(../images/check_num.png) no-repeat 1.5rem center;
         background-size: 1.5rem auto; }
       .log_info li input.pwd {
         background: url(../images/log_pwd.png) no-repeat 1.5rem center;
@@ -292,3 +295,139 @@
   padding: 0 16px;
   color: #4fc1e9;
   line-height: 1; }
+
+/* ****************************************************************************
+ * detail
+ * ************************************************************************* */
+.detail_form {
+  padding: 0 16px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 1px 0px #ebebeb; }
+  .detail_form span {
+    float: left;
+    height: 44px;
+    line-height: 44px;
+    color: #434343;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 44px; }
+  .detail_form input {
+    margin: 0 0 0 10px;
+    float: left;
+    height: 44px;
+    width: 180px;
+    line-height: 44px;
+    color: #434343;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 44px; }
+
+.detail_mark {
+  margin: 24px 0 0;
+  padding: 0 0 0 10px;
+  height: 18px;
+  color: #4fc1e9;
+  font-size: 17px;
+  line-height: 18px;
+  border-lefT: 3px solid #4fc1e9; }
+
+.detail_info {
+  width: 100%; }
+  .detail_info dt {
+    height: 44px;
+    color: #434343;
+    font-size: 16px;
+    line-height: 44px; }
+  .detail_info dd {
+    padding: 10px;
+    height: auto;
+    background: #fff; }
+    .detail_info dd textarea {
+      width: 100%;
+      min-height: 130px;
+      outline: none; }
+
+/* ****************************************************************************
+ * commit
+ * ************************************************************************* */
+.commit_tips {
+  margin: 60px auto;
+  padding: 30px 0;
+  color: #4fc1e9;
+  font-size: 15px;
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid #e1e1e1;
+  border-width: 1px 0;
+  background: #fff; }
+
+/* ****************************************************************************
+ * repassword
+ * ************************************************************************* */
+.repass_tips {
+  color: #b8b8b8;
+  font-size: 12px; }
+
+/* ****************************************************************************
+ * data
+ * ************************************************************************* */
+.data {
+  max-width: 640px;
+  background: #fff; }
+
+.data_banner {
+  width: 100%; }
+  .data_banner img {
+    display: block;
+    width: 100%; }
+
+.data_title {
+  padding: 36px 0 0 0;
+  color: #1b1b1b;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center; }
+
+.data_text {
+  padding: 16px 0 0;
+  color: #626262;
+  font-size: 14px;
+  line-height: 26px; }
+  .data_text p {
+    padding: 10px 0;
+    text-align: center; }
+  .data_text img {
+    display: block;
+    margin: 0 auto; }
+
+.data_btn {
+  margin: 45px auto 0;
+  width: 244px;
+  height: 32px;
+  color: #00a0e8;
+  font-size: 13px;
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid #00a0e8;
+  border-radius: 16px; }
+
+.data_wish {
+  padding: 0 0 60px;
+  color: #626262;
+  font-size: 14px;
+  line-height: 44px;
+  text-align: center; }
+
+/* ****************************************************************************
+ * expert_list
+ * ************************************************************************* */
+.data {
+  max-width: 640px;
+  background: #fff; }
+
+.expert_banner {
+  width: 100%; }
+  .expert_banner img {
+    display: block;
+    width: 100%; }
