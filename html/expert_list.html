@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>专家库</title>
+<script>
+var screenWidth = screen.width;
+if(screenWidth <= 320) {
+    var rootFontSizeNumber = '.625';
+    var rootFontSize = '.625rem';
+    } else if (screenWidth > 320 && screenWidth <= 375) {
+    var rootFontSizeNumber = '.65';
+    var rootFontSize = '.65rem';
+    } else {
+    var rootFontSizeNumber = '.7';
+    var rootFontSize = '.7rem';
+}
+document.write('<style>html {font-size: ' + rootFontSize + ';}</style>');
+</script>
+<link rel="stylesheet" href="../build/styles/global.css">
+<link rel="stylesheet" href="../build/styles/modules.css">
+</head>
+<body>
+<div class="expert">
+    <div class="expert_banner">
+        <img src="../build/images/expert_banner.png" alt="">
+    </div>
+    <div class="expert_tabs">
+        <ul>
+            <li>
+                <span></span>
+                <em>科研机构</em>
+            </li>
+            <li>
+                <span></span>
+                <em>高等院校</em>
+            </li>
+            <li>
+                <span></span>
+                <em>产业企业</em>
+            </li>
+            <li>
+                <span></span>
+                <em>投资人</em>
+            </li>
+        </ul>
+    </div>
+    <div class="expert_list">
+        <h2>为您推荐</h2>
+        <ul>
+            <li>
+                <div>
+                    <span>
+                        <img src="" alt=""></div>
+                    </span>
+                    <em>叶长辉</em>
+                </div>
+                <div>
+                    <h3>中国科学院合肥物质科学研究院</h3>
+                    <p>透明导电薄膜、柔性材料、可...</p>
+                    <b>20人查阅</b>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="../build/libs/jquery.min.js"></script>
+</body>
+</html>

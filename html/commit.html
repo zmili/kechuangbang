@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>提交审核</title>
+<script>
+var screenWidth = screen.width;
+if(screenWidth <= 320) {
+    var rootFontSizeNumber = '.625';
+    var rootFontSize = '.625rem';
+    } else if (screenWidth > 320 && screenWidth <= 375) {
+    var rootFontSizeNumber = '.65';
+    var rootFontSize = '.65rem';
+    } else {
+    var rootFontSizeNumber = '.7';
+    var rootFontSize = '.7rem';
+}
+document.write('<style>html {font-size: ' + rootFontSize + ';}</style>');
+</script>
+<link rel="stylesheet" href="../build/styles/global.css">
+<link rel="stylesheet" href="../build/styles/modules.css">
+</head>
+<body>
+<div class="basic_tab">
+    <ul>
+        <li class="active">基本信息</li>
+        <li>个人详情</li>
+        <li>提交审核</li>
+    </ul>
+</div>
+<div class="commit_tips">感谢您的信任，您的资料已收到<br />会在24小时内处理完毕，请耐心等待 ! </div>
+<div class="wrap">
+    <div class="reg_btn">开启探索</div>
+</div>
+<script src="../build/libs/jquery.min.js"></script>
+<script src="../build/scripts/reg.js"></script>
+</body>
+</html>

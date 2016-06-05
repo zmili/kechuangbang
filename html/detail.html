@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>个人详情</title>
+<script>
+var screenWidth = screen.width;
+if(screenWidth <= 320) {
+    var rootFontSizeNumber = '.625';
+    var rootFontSize = '.625rem';
+    } else if (screenWidth > 320 && screenWidth <= 375) {
+    var rootFontSizeNumber = '.65';
+    var rootFontSize = '.65rem';
+    } else {
+    var rootFontSizeNumber = '.7';
+    var rootFontSize = '.7rem';
+}
+document.write('<style>html {font-size: ' + rootFontSize + ';}</style>');
+</script>
+<link rel="stylesheet" href="../build/styles/global.css">
+<link rel="stylesheet" href="../build/styles/modules.css">
+</head>
+<body>
+<div class="material_avator">
+    <span><img src="../build/images/avator.png" alt="头像"></span>
+    <em>点击更换头像</em>
+</div>
+<div class="wrap">
+    <div class="detail_form">
+        <span>姓名</span>
+        <input type="text">
+    </div>
+</div>
+<div class="wrap">
+    <div class="detail_form">
+        <span>所在机构</span>
+        <input type="text">
+    </div>
+</div>
+<div class="wrap">
+    <div class="detail_mark">详情</div>
+</div>
+<div class="wrap">
+    <dl class="detail_info">
+        <dt>介绍</dt>
+        <dd>
+            <textarea placeholder="请简要介绍个人履历和职务"></textarea>
+        </dd>
+    </dl>
+</div>
+<div class="wrap">
+    <dl class="detail_info">
+        <dt>应用方向</dt>
+        <dd>
+        <textarea placeholder="请介绍您自己关注/擅长的方向
+如：电动车控制系统、石墨烯锂电池相关（写得越详细，越有利于匹配）"></textarea>
+        </dd>
+    </dl>
+</div>
+<div class="wrap">
+    <dl class="detail_info">
+        <dt>研发实力</dt>
+        <dd>
+            <textarea placeholder="请介绍关注领域内运作过的技术项目、专利介绍及获奖信息。"></textarea>
+        </dd>
+    </dl>
+</div>
+<div class="wrap">
+    <div class="reg_btn">下一步</div>
+</div>
+<script src="../build/libs/jquery.min.js"></script>
+<script src="../build/scripts/reg.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<title>跬步数据</title>
+<script>
+var screenWidth = screen.width;
+if(screenWidth <= 320) {
+    var rootFontSizeNumber = '.625';
+    var rootFontSize = '.625rem';
+    } else if (screenWidth > 320 && screenWidth <= 375) {
+    var rootFontSizeNumber = '.65';
+    var rootFontSize = '.65rem';
+    } else {
+    var rootFontSizeNumber = '.7';
+    var rootFontSize = '.7rem';
+}
+document.write('<style>html {font-size: ' + rootFontSize + ';}</style>');
+</script>
+<link rel="stylesheet" href="../build/styles/global.css">
+<link rel="stylesheet" href="../build/styles/modules.css">
+</head>
+<body>
+<div class="data">
+    <div class="data_banner">
+        <img src="../build/images/data_banner.png" alt="">
+    </div>
+    <div class="wrap">
+        <div class="data_title">洞悉全国高技术领域创新<br />聚焦核心数据价值</div>
+    </div>
+    <div class="wrap">
+        <div class="data_text">跬步数据针对高新技术行业，通过数据挖掘、迭代优化的方法，将信息和数据深加工处理，创建了一套客观的技术评估数据模型，为用户提供技术交易及合作方案对标、新兴技术趋势监控的数据工具。</div>
+    </div>
+    <div class="wrap">
+        <div class="data_title">领域细分</div>
+    </div>
+    <div class="wrap">
+        <div class="data_text">
+            <img src="../build/images/data_icon_1.png" alt="">
+            <p>高技术行业垂直细分领域的趋势监控</p>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="data_title">海量数据样本</div>
+    </div>
+    <div class="wrap">
+        <div class="data_text">
+            <img src="../build/images/data_icon_2.png" alt="">
+            <p>上千家数据来源机构<br />上万条技术合作及交易数据</p>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="data_title">专业数据模型</div>
+    </div>
+    <div class="wrap">
+        <div class="data_text">
+            <img src="../build/images/data_icon_3.png" alt="">
+            <p>涵盖所有技术合作<br />技术交易方式等详细数据</p>
+        </div>
+    </div>
+    <div class="data_banner" style="padding: 10px 0 0;">
+        <img src="../build/images/data_icon_4.png" alt=""></img>
+    </div>
+    <div class="data_btn">一键咨询</div>
+    <div class="data_wish">找最适合我的技术合作方案</div>
+</div>
+<script src="../build/libs/jquery.min.js"></script>
+<script src="../build/scripts/reg.js"></script>
+</body>
+</html>
