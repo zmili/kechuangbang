@@ -1,3 +1,2 @@
 'use strict';
-var spring = 'spring';
-console.log(spring);
+console.log('index');
