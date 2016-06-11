@@ -4,6 +4,9 @@ html {
   outline: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
+textarea {
+  border: 0 none; }
+
 body,
 dl,
 dd,
