@@ -3,7 +3,10 @@
  * index
  * ************************************************************************* */
 body {
+    max-width: 640px;
+    margin: 0 auto;
     background: #3c3c44;
+    overflow-x: hidden;
 }
 .index {
     position: relative;
