@@ -17,14 +17,14 @@ body {
   display: none;
   position: absolute;
   top: 0;
-  right: -136px;
-  width: 106px;
-  padding: 18px 0 0 30px; }
+  right: -13.6rem;
+  width: 10.6rem;
+  padding: 1.8rem 0 0 3rem; }
   .nav a {
     display: block;
     color: #fff;
-    font-size: 16px;
-    line-height: 37px;
+    font-size: 1.6rem;
+    line-height: 3.7rem;
     text-decoration: none; }
 
 .nav_btn {
@@ -79,89 +79,89 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 230px;
-    margin: -110px 0 0 -115px; }
+    width: 23rem;
+    margin: -11rem 0 0 -11.5rem; }
     .index_about dl dt {
-      height: 65px;
+      height: 6.5rem;
       width: 100%;
       color: #fff;
-      font-size: 26px;
+      font-size: 2.6rem;
       text-align: center;
-      line-height: 65px; }
+      line-height: 6.5rem; }
     .index_about dl dd {
       color: #fff;
-      font-size: 16px;
-      line-height: 28px; }
+      font-size: 1.6rem;
+      line-height: 2.8rem; }
 
 .index_resolved {
-  padding: 25rem 0 42px;
+  padding: 25rem 0 4.2rem;
   background: #eee url(../images/index_resolved.png) no-repeat top center;
   background-size: 100% auto; }
   .index_resolved h2 {
     color: #313131;
-    font-size: 22px;
-    line-height: 65px;
+    font-size: 2.2rem;
+    line-height: 6.5rem;
     text-align: center; }
     .index_resolved h2 span {
-      font-size: 14px; }
+      font-size: 1.4rem; }
   .index_resolved div {
-    padding: 0 0 0 56px;
+    padding: 0 0 0 5.6rem;
     color: #313131;
-    font-size: 16px;
-    line-height: 32px; }
+    font-size: 1.6rem;
+    line-height: 3.2rem; }
   .index_resolved ul {
-    padding: 22px 0 0 56px;
+    padding: 2.2rem 0 0 5.6rem;
     color: #313131;
-    font-size: 14px;
-    line-height: 27px; }
+    font-size: 1.4rem;
+    line-height: 2.7rem; }
 
 .index_enterprise {
-  padding: 1.5rem 0 42px;
+  padding: 1.5rem 0 4.2rem;
   background: #00a0e8 url(../images/index_enterprise.png) no-repeat center center;
   background-size: 100% auto; }
   .index_enterprise h2 {
     color: #fff;
-    font-size: 22px;
-    line-height: 65px;
+    font-size: 2.2rem;
+    line-height: 6.5rem;
     text-align: center; }
     .index_enterprise h2 span {
-      font-size: 14px; }
+      font-size: 1.4rem; }
   .index_enterprise div {
-    padding: 0 0 0 56px;
+    padding: 0 0 0 5.6rem;
     color: #fff;
-    font-size: 16px;
-    line-height: 32px; }
+    font-size: 1.6rem;
+    line-height: 3.2rem; }
   .index_enterprise ul {
-    padding: 22px 0 0 56px;
+    padding: 2.2rem 0 0 5.6rem;
     color: #fff;
-    font-size: 14px;
-    line-height: 27px; }
+    font-size: 1.4rem;
+    line-height: 2.7rem; }
     .index_enterprise ul li {
       position: relative;
-      padding: 0 0 0 16px; }
+      padding: 0 0 0 1.6rem; }
       .index_enterprise ul li::after {
         position: absolute;
-        top: 12px;
-        left: 3px;
-        width: 3px;
-        height: 3px;
+        top: 1.2rem;
+        left: .3rem;
+        width: .3rem;
+        height: .3rem;
         content: '';
         background: #fff; }
 
 .index_modules {
   margin: 1.2rem 1.5rem 0;
-  padding: 25px 0 34px;
+  padding: 2.5rem 0 3.4rem;
   background: #fff; }
   .index_modules dl {
     width: 100%;
     text-align: center; }
   .index_modules dt {
     margin: 0 auto;
-    width: 88px;
-    height: 88px;
-    line-height: 88px;
+    width: 8.8rem;
+    height: 8.8rem;
+    line-height: 8.8rem;
     background: #b6e1fd;
-    border-radius: 44px; }
+    border-radius: 4.4rem; }
     .index_modules dt.index_icon_b {
       background: #ffc6cc; }
     .index_modules dt.index_icon_c {
@@ -175,30 +175,30 @@ body {
   .index_modules dd {
     padding: 3px 0 0 0;
     color: #313131;
-    font-size: 20px;
-    line-height: 50px; }
+    font-size: 2rem;
+    line-height: 5rem; }
   .index_modules div {
-    margin: 0 25px;
+    margin: 0 2.5rem;
     color: #7d7d7d;
-    font-size: 15px;
-    line-height: 22px; }
+    font-size: 1.5rem;
+    line-height: 2.2rem; }
   .index_modules a {
-    width: 190px;
-    height: 33px;
-    margin: 18px auto 0;
+    width: 19rem;
+    height: 3.3rem;
+    margin: 1.8rem auto 0;
     display: block;
     color: #959595;
-    font-size: 16px;
-    line-height: 33px;
+    font-size: 1.6rem;
+    line-height: 3.3rem;
     text-align: center;
     text-decoration: none;
     border: 1px solid #959595;
-    border-radius: 33px; }
+    border-radius: 3.3rem; }
 
 .index_join {
   position: relative;
   margin: 1.2rem 0 0;
-  padding: 0 0 65px;
+  padding: 0 0 6.5rem;
   background: #fff; }
   .index_join::before {
     position: relative;
@@ -206,41 +206,41 @@ body {
     left: 0;
     display: block;
     width: 100%;
-    height: 48px;
+    height: 4.8rem;
     background: #00a0e8;
     content: ''; }
   .index_join::after {
     position: absolute;
-    top: 8px;
+    top: .8rem;
     left: 50%;
     display: block;
-    width: 68px;
-    height: 59px;
-    margin: 0 0 0 -34px;
+    width: 6.8rem;
+    height: 5.9rem;
+    margin: 0 0 0 -3.4rem;
     content: '';
     background: url(../images/index_icon_e.png) no-repeat center center;
     background-size: 100% auto; }
   .index_join img {
-    width: 210px;
-    height: 183px;
+    width: 21rem;
+    height: 18.3rem;
     display: block;
-    margin: 146px auto 0; }
+    margin: 14.6rem auto 0; }
   .index_join a {
-    width: 190px;
-    height: 33px;
-    margin: 75px auto 0;
+    width: 19rem;
+    height: 3.3rem;
+    margin: 7.5rem auto 0;
     display: block;
     color: #1a95d4;
-    font-size: 16px;
-    line-height: 33px;
+    font-size: 1.6rem;
+    line-height: 3.3rem;
     text-align: center;
     text-decoration: none;
     border: 1px solid #1a95d4;
-    border-radius: 33px; }
+    border-radius: 3.3rem; }
 
 .btm {
   width: 100%;
-  height: 50px;
+  height: 5rem;
   background: #fcfcfc; }
   .btm a {
     width: 20%;
@@ -250,13 +250,133 @@ body {
     .btm a span {
       width: 100%;
       display: block;
-      padding: 4px 0 0; }
+      padding: .4rem 0 0; }
     .btm a img {
-      width: 20px; }
+      width: 2rem; }
     .btm a em {
       width: 100%;
-      height: 24px;
+      height: 2.4rem;
       color: #9a9a9a;
-      font-size: 12px;
-      line-height: 24px;
+      font-size: 1.2rem;
+      line-height: 2.4rem;
       font-style: normal; }
+
+/* ****************************************************************************
+ * team
+ * ************************************************************************* */
+.team {
+  background: #fff;
+  padding: 0 0 4.4rem; }
+  .team .nav_btn {
+    top: 2.4rem;
+    right: 1rem; }
+  .team .team_logo {
+    padding: 1.6rem 0 0 1.5rem;
+    height: 4.8rem; }
+    .team .team_logo img {
+      width: 11rem;
+      height: 3.4rem; }
+  .team h1 {
+    padding: 1.6rem 1.8rem 0; }
+    .team h1 em {
+      display: block;
+      color: #2d3237;
+      font-size: 1.2rem;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 2rem; }
+    .team h1 span {
+      display: block;
+      color: #2d3237;
+      font-size: 2rem;
+      font-weight: normal;
+      font-weight: bold;
+      line-height: 3rem; }
+  .team .text {
+    padding: .9rem 1.7rem 2.6rem;
+    color: #626262;
+    font-size: 1.4rem;
+    line-height: 2.5rem; }
+  .team .banner {
+    width: 100%; }
+    .team .banner img {
+      width: 100%;
+      display: block; }
+  .team h2 {
+    padding: 2.5rem 0 1.5rem;
+    text-align: center; }
+    .team h2 em {
+      display: block;
+      color: #434343;
+      font-style: normal;
+      line-height: 2.2rem;
+      font-weight: bold; }
+    .team h2 span {
+      color: #434343;
+      font-size: 1.6rem;
+      font-weight: bold;
+      line-height: 2.5rem; }
+  .team .text_bg {
+    margin: 1.5rem .9rem 0;
+    padding: 1rem 1rem 2.2rem;
+    background: #eee;
+    border-radius: 1.3rem; }
+    .team .text_bg h3 {
+      color: #434343;
+      font-size: 1.6rem;
+      line-height: 4.8rem;
+      text-align: center; }
+    .team .text_bg p {
+      color: #626262;
+      font-size: 1.4rem;
+      line-height: 2.6rem; }
+  .team .about {
+    margin: 3.5rem 1.9rem 0;
+    color: #626262;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    text-indent: 2.5rem;
+    background: url(../images/team_tips.png) no-repeat top left;
+    background-size: 2rem auto; }
+  .team .join {
+    display: block;
+    margin: 6.2rem auto 0;
+    width: 24.3rem;
+    height: 3rem;
+    color: #00a0e8;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 3rem;
+    text-decoration: none;
+    border: 1px solid #00a0e8;
+    border-radius: 1.5rem; }
+
+.server h1 {
+  padding-bottom: 33px; }
+
+.server .nums img {
+  margin: 0 auto;
+  display: block; }
+
+.server .nums_tips {
+  padding: 3px 0;
+  color: #535353;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center; }
+  .server .nums_tips em,
+  .server .nums_tips span {
+    display: inline-block;
+    vertical-align: middle;
+    font-style: normal; }
+  .server .nums_tips em {
+    padding-right: 20px; }
+  .server .nums_tips span {
+    padding-left: 20px;
+    line-height: 40px; }
+
+.tool {
+  min-height: 736px; }
+  .tool .tool_map img {
+    display: block;
+    margin: 0 auto; }
