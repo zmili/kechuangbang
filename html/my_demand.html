@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-<title>个人中心</title>
+<title>我的需求</title>
 <script>
 var screenWidth = screen.width;
 if(screenWidth <= 320) {
@@ -23,16 +23,18 @@ document.write('<style>html {font-size: ' + rootFontSize + ';}</style>');
 </head>
 <body>
 <div class="home">
-    <dl class="avatar">
-        <dt><img src="../build/images/avator.png" alt=""></dt>
-        <dd>天山童姥</dd>
-    </dl>
-    <ul class="home_list">
-        <li><a href="choose.html">申请行家／经纪人</a></li>
-        <li><a href="choose.html">我的需求</a></li>
-        <li><a href="choose.html">联系客服</a></li>
-        <li><a href="choose.html">用户反馈</a></li>
-    </ul>
+    <div class="home_tips">请提交您的需求，我们将于24小时内给予答复</div>
+    <div class="home_text">
+        <textarea placeholder=" 一句话填写您想要找的技术项目或专家团队。 如：我要找石墨烯电池的技术和相关专家团队。"></textarea>
+    </div>
+    <div class="home_tips">姓名</div>
+    <div class="home_text"><input type="text"></div>
+    <div class="home_tips">手机号码</div>
+    <div class="home_text"><input type="text"></div>
+    <div class="home_tips">邮箱</div>
+    <div class="home_text"><input type="text"></div>
+    <div class="btn">立即提交</div>
+    <div class="home_tips_call"><span>遇到任何问题请致电客服电话</span><br />021-65678826（工作日9:00-17:30）</div>
 </div>
 <script src="../build/libs/jquery.min.js"></script>
 </body>

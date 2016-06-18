@@ -3,16 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-<title>个人中心</title>
+<title>设置</title>
 <script>
 var screenWidth = screen.width;
 if(screenWidth <= 320) {
     var rootFontSizeNumber = '.625';
     var rootFontSize = '.625rem';
-    } else if (screenWidth > 320 && screenWidth <= 375) {
+} else if (screenWidth > 320 && screenWidth <= 375) {
     var rootFontSizeNumber = '.65';
     var rootFontSize = '.65rem';
-    } else {
+} else {
     var rootFontSizeNumber = '.7';
     var rootFontSize = '.7rem';
 }
@@ -23,17 +23,21 @@ document.write('<style>html {font-size: ' + rootFontSize + ';}</style>');
 </head>
 <body>
 <div class="home">
-    <dl class="avatar">
-        <dt><img src="../build/images/avator.png" alt=""></dt>
-        <dd>天山童姥</dd>
-    </dl>
-    <ul class="home_list">
-        <li><a href="choose.html">申请行家／经纪人</a></li>
-        <li><a href="choose.html">我的需求</a></li>
-        <li><a href="choose.html">联系客服</a></li>
-        <li><a href="choose.html">用户反馈</a></li>
+    <ul class="set_about">
+        <li>
+            <span>手机号码</span>
+            <em>13123456789</em>
+        </li>
+        <li>
+            <span>微信</span>
+            <em>未绑定</em>
+            <a href="#">去绑定</a>
+        </li>
+    </ul>
+    <ul class="set_tool">
+        <li>修改密码</li>
+        <li>退出登录</li>
     </ul>
 </div>
-<script src="../build/libs/jquery.min.js"></script>
 </body>
 </html>

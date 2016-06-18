@@ -3,16 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
-<title>个人中心</title>
+<title>联系客服</title>
 <script>
 var screenWidth = screen.width;
 if(screenWidth <= 320) {
     var rootFontSizeNumber = '.625';
     var rootFontSize = '.625rem';
-    } else if (screenWidth > 320 && screenWidth <= 375) {
+} else if (screenWidth > 320 && screenWidth <= 375) {
     var rootFontSizeNumber = '.65';
     var rootFontSize = '.65rem';
-    } else {
+} else {
     var rootFontSizeNumber = '.7';
     var rootFontSize = '.7rem';
 }
@@ -23,17 +23,10 @@ document.write('<style>html {font-size: ' + rootFontSize + ';}</style>');
 </head>
 <body>
 <div class="home">
-    <dl class="avatar">
-        <dt><img src="../build/images/avator.png" alt=""></dt>
-        <dd>天山童姥</dd>
-    </dl>
-    <ul class="home_list">
-        <li><a href="choose.html">申请行家／经纪人</a></li>
-        <li><a href="choose.html">我的需求</a></li>
-        <li><a href="choose.html">联系客服</a></li>
-        <li><a href="choose.html">用户反馈</a></li>
-    </ul>
+    <div class="service_tips">客服邮箱</div>
+    <div class="service_about service_about_mail">proj@kechuangbang.com</div>
+    <div class="service_tips">客服电话</div>
+    <div class="service_about service_about_tel">021-65678826（工作日9:00-17:30）</div>
 </div>
-<script src="../build/libs/jquery.min.js"></script>
 </body>
 </html>
