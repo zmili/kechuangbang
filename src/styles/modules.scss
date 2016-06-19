@@ -175,7 +175,6 @@
     }
 }
 .material_info {
-    padding: 0 .7rem;
     ul {
         width: 100%;
         @extend %clearfix;
@@ -188,12 +187,35 @@
         border-radius: .5rem;
         box-shadow: 0 1px 0 0 #e5e5e5;
         @extend %clearfix;
+        em {
+            float: left;
+            width: 9rem;
+            height: 4.8rem;
+            color: #adadad;
+            font-size: 1.4rem;
+            font-style: normal;
+            text-align: center;
+            line-height: 4.8rem;
+        }
+        div {
+            margin: 0 0 0 9rem;
+        }
         input {
             width: 100%;
             height: 4.8rem;
             color: #adadad;
             font-size: 1.4rem;
-            text-indent: 5.4rem;
+        }
+        select {
+            width: 100%;
+            height: 4.8rem;
+            color: #adadad;
+            font-size: 1.4rem;
+            outline: none;
+            option {
+                width: 100%;
+                height: 4.8rem;
+            }
         }
     }
 }
@@ -449,6 +471,7 @@
  * data
  * ************************************************************************* */
 .data {
+    margin: 0 auto;
     max-width: 640px;
     background: #fff;
 }
@@ -513,4 +536,243 @@
         width: 100%;
     }
 }
+.expert_tabs {
+    margin: 1rem 0 0;
+    padding: 1.5rem 0 .8rem;
+    background: #fff;
+    @extend %clearfix;
+    ul {
+        width: 100%;
+    }
+    li {
+        float: left;
+        width: 25%;
+        &:nth-child(2) {
+            span {
+                background: #ffc6cc;
+            }
+        }
+        &:nth-child(3) {
+            span {
+                background: #d5c8ea;
+            }
+        }
+        &:nth-child(4) {
+            span {
+                background: #b6e7e7;
+            }
+        }
+        span {
+            margin: 0 auto;
+            display: block;
+            width: 4.5rem;
+            height: 4.5rem;
+            line-height: 4.5rem;
+            text-align: center;
+            font-size: 0;
+            background: #b6e1fd;
+            border-radius: 2.3rem;
+            img {
+                display: inline-block;
+                width: 2.7rem;
+                vertical-align: middle;
+            }
+        }
+        em {
+            display: block;
+            width: 100%;
+            color: #535353;
+            font-size: 1.2rem;
+            font-style: normal;
+            text-align: center;
+            line-height: 2.8rem;
+        }
+    }
+}
 
+.expert_list {
+    margin: 1rem auto 0;
+    background: #fff;
+    @extend %clearfix;
+    h2 {
+        height: 46px;
+        padding: 1.7rem 0 0 1.5rem;
+        border-bottom: 1px solid #d1d1d1;
+        span {
+            padding: 0 0 0 1.2rem;
+            height: 1.7rem;
+            color: #535353;
+            font-size: 1.3rem;
+            font-weight: normal;
+            line-height: 1.7rem;
+            border-left: 3px solid #00a0e8;
+            box-shadow: -1px 0 0 0 #87d2f4;
+        }
+    }
+    ul {
+        width: 100%;
+        li {
+            margin: 0 0 0 1rem;
+            padding: 1.5rem 0 0;
+            border-bottom: 1px solid #d1d1d1;
+            @extend %clearfix;
+            &:last-child {
+                border-width: 0;
+            }
+        }
+    }
+    .left {
+        float: left;
+        width: 8.2rem;
+        span {
+            margin: 0 auto;
+            display: block;
+            width: 6.6rem;
+            height: 6.6rem;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        em {
+            display: block;
+            width: 100%;
+            color: #00a0e8;
+            font-style: normal;
+            text-align: center;
+            line-height: 4.6rem;
+        }
+    }
+    .right {
+        margin: 0 1rem 0 8.6rem;
+        h3 {
+            max-height: 4rem;
+            color: #535353;
+            font-size: 1.6rem;
+            line-height: 2rem;
+            overflow: hidden;
+        }
+        p {
+            padding: 0 1rem;
+            margin: .4rem 0 0;
+            height: 2.4rem;
+            color: #c2c2c2;
+            line-height: 2.4rem;
+            border: 1px solid #e5e5e5;
+            border-radius: 1.2rem;
+            @extend %otw;
+        }
+        b {
+            display: block;
+            padding: 1.3rem 0 0;
+            color: #c2c2c2;
+            font-size: 1.2rem;
+            font-weight: normal;
+            line-height: 1;
+        }
+    }
+}
+.expert_avator {
+    margin: 3rem 1.5rem;
+    dt {
+        float: left;
+        width: 6.6rem;
+        height: 6.6rem;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    dd {
+        margin: 0 0 0 8.5rem;
+        h1 {
+            color: #313131;
+            font-size: 2.4rem;
+            line-height: 1;
+            span {
+                padding: 0 0 0 1rem;
+                color: #1b1b1b;
+                font-size: 12px;
+            }
+        }
+        p {
+            padding: 1rem 0 0;
+            color: #535353;
+            font-size: 1.3rem;
+            line-height: 1.5;
+        }
+    }
+}
+.expert_call {
+    display: block;
+    margin: 2rem auto 0;
+    width: 9rem;
+    height: 3.5rem;
+    color: #00a0e8;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #00a0e8;
+    border-radius: 1.8rem;
+}
+.expert_title {
+    margin: 2.5rem 2rem 0;
+    height: 5.8rem;
+    color: #1b1b1b;
+    font-size: 1.9rem;
+    line-height: 5.8rem;
+    border-bottom: 1px solid #a6a6a6;
+}
+.expert_detail {
+    margin: 0 2rem 2rem;
+    color: #7d7d7d;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+}
+.expert_footer {
+    padding: 1.8rem 0 0;
+    background: #2d3237;
+    h3 {
+        margin: 0 2rem;
+        line-height: 2.2rem;
+        @extend %clearfix;
+        img {
+            float: left;
+            height: 3.1rem;
+        }
+        span {
+            padding: 0 0 0 1rem;
+            float: left;
+            color: #fff;
+            font-size: 1.3rem;
+            font-weight: normal;
+            line-height: 3.1rem;
+        }
+    }
+    p {
+        height: 3.2rem;
+        color: #e5e5e5;
+        font-size: 1.4rem;
+        text-align: center;
+        line-height: 3.2rem;
+        a {
+            padding: 0 1rem 0 .9rem;
+            color: #fff;
+            border-right: 1px solid #adafb1;
+            text-decoration: none;
+            &:last-child {
+                border-width: 0;
+            }
+        }
+    }
+    div {
+        margin: 1rem 0 0;
+        padding: 0 0 2rem;
+        color: #a0a0a0;
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 5.5rem;
+        background: #23282d;
+    }
+}
