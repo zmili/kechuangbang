@@ -18,7 +18,7 @@ body {
   position: absolute;
   top: 0;
   right: -13.6rem;
-  width: 10.6rem;
+  width: 11.6rem;
   padding: 1.8rem 0 0 3rem; }
   .nav a {
     display: block;
@@ -44,7 +44,7 @@ body {
   background-size: 100% auto; }
   .index_banner .index_banner_box {
     position: absolute;
-    bottom: 4rem;
+    bottom: 60px;
     left: 50%;
     width: 24rem;
     height: 9rem;
@@ -70,6 +70,10 @@ body {
     line-height: 4.5rem;
     text-align: center; }
 
+@media screen and (max-width: 320px) {
+  .index_banner .index_banner_box {
+    bottom: 25px; } }
+
 .index_about {
   position: relative;
   padding: 0 0 106.875%;
@@ -79,8 +83,8 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 23rem;
-    margin: -11rem 0 0 -11.5rem; }
+    width: 20rem;
+    margin: -12rem 0 0 -10rem; }
     .index_about dl dt {
       height: 6.5rem;
       width: 100%;
@@ -114,6 +118,17 @@ body {
     color: #313131;
     font-size: 1.4rem;
     line-height: 2.7rem; }
+    .index_resolved ul li {
+      position: relative;
+      padding: 0 0 0 1.6rem; }
+      .index_resolved ul li::after {
+        position: absolute;
+        top: 1.2rem;
+        left: .3rem;
+        width: .3rem;
+        height: .3rem;
+        content: '';
+        background: #313131; }
 
 .index_enterprise {
   padding: 1.5rem 0 4.2rem;
@@ -125,6 +140,7 @@ body {
     line-height: 6.5rem;
     text-align: center; }
     .index_enterprise h2 span {
+      padding: 0 0 0 1rem;
       font-size: 1.4rem; }
   .index_enterprise div {
     padding: 0 0 0 5.6rem;
@@ -149,7 +165,7 @@ body {
         background: #fff; }
 
 .index_modules {
-  margin: 1.2rem 1.5rem 0;
+  margin: 1.8rem 1.5rem 0;
   padding: 2.5rem 0 3.4rem;
   background: #fff; }
   .index_modules dl {
@@ -297,6 +313,12 @@ body {
     color: #626262;
     font-size: 1.4rem;
     line-height: 2.5rem; }
+  .team .text_pc {
+    padding: 2rem 1.7rem 2.6rem;
+    color: #949494;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 2.5rem; }
   .team .banner {
     width: 100%; }
     .team .banner img {
@@ -376,7 +398,39 @@ body {
     line-height: 40px; }
 
 .tool {
-  min-height: 736px; }
+  min-height: 57rem; }
   .tool .tool_map img {
     display: block;
     margin: 0 auto; }
+
+.activity {
+  width: 100%;
+  padding: 0;
+  background: #fff; }
+  .activity .activity_title {
+    padding: 0 1.5rem;
+    height: 4rem;
+    color: #2d3237;
+    font-size: 1.6rem;
+    line-height: 4rem;
+    background: #f2f2f2; }
+  .activity .activity_list {
+    margin: -1.5rem 0 0;
+    padding: 1.5rem 0;
+    width: 100%;
+    background: #f2f2f2; }
+  .activity li {
+    margin: 1.5rem 1rem 0; }
+  .activity img {
+    display: block;
+    width: 100%; }
+
+.back_top {
+  position: fixed;
+  bottom: 5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  z-index: 10;
+  background: url(../images/backtop.png) no-repeat center center;
+  background-size: 100% auto; }
